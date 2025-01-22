@@ -57,7 +57,6 @@ Dentro do Jupyter Notebook, você pode carregar o modelo treinado salvo como mod
 
 import pickle
 
-# Carregar o modelo treinado
 with open('modelo.pkl', 'rb') as f:
     model = pickle.load(f)
 
