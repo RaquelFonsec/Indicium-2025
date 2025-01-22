@@ -14,16 +14,20 @@ Pré-requisitos
 Antes de começar, é necessário ter instalado o seguinte software:
 
 Python 3.7+: Este projeto foi desenvolvido utilizando a versão 3.7  do Python.
+
+
 Git: Para clonar o repositório.
+
 Jupyter Notebook: O código principal está no formato Jupyter Notebook (.ipynb).
 
 Passos para Configuração
 
 1. Clonar o Repositório
+2. 
 git clone https://github.com/RaquelFonsec/Indicium-2025.git
 
 
-2. Criar e Ativar um Ambiente Virtual
+3. Criar e Ativar um Ambiente Virtual
 
 É recomendável usar um ambiente virtual para garantir que as dependências sejam instaladas de maneira isolada. Para criar e ativar um ambiente virtual, execute os seguintes comandos:
 
