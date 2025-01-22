@@ -24,10 +24,10 @@ Passos para Configuração
 
 1. Clonar o Repositório
    
-2.git clone https://github.com/RaquelFonsec/Indicium-2025.git
+git clone https://github.com/RaquelFonsec/Indicium-2025.git
 
 
-3. Criar e Ativar um Ambiente Virtual
+2. Criar e Ativar um Ambiente Virtual
 
 É recomendável usar um ambiente virtual para garantir que as dependências sejam instaladas de maneira isolada. Para criar e ativar um ambiente virtual, execute os seguintes comandos:
 
@@ -42,17 +42,17 @@ python -m venv venv
 venv\Scripts\activate
 
 
-4. Instalar as Dependências
+3. Instalar as Dependências
    
 Depois de ativar o ambiente virtual, instale as dependências do projeto. As dependências estão listadas no arquivo requirements.txt. Para instalar as dependências, execute:
 
 pip install -r requirements.txt
 
-5. Executar o Jupyter Notebook
+4. Executar o Jupyter Notebook
 
    jupyter notebook
 
-6. Carregar o Modelo Treinado
+5. Carregar o Modelo Treinado
 Dentro do Jupyter Notebook, você pode carregar o modelo treinado salvo como modelo.pkl. Para fazer isso, basta rodar o seguinte código:
 
 import pickle
